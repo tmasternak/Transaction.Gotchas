@@ -9,8 +9,8 @@ namespace Scenarios
     [TestFixture]
     public class EscalationsWithSingleSqlServerInstance
     {
-        const string ConnectionString = @"Server=localhost\SqlExpress;Database=nservicebus;Trusted_Connection=True;";
-        const string ConnectionStringReformated = @"Database=nservicebus;Server=localhost\SqlExpress;Trusted_Connection=True;";
+        const string ConnectionString = @"Server=DESKTOP-G5E7IEI;Database=master;Trusted_Connection=True;";
+        const string ConnectionStringReformated = @"Database=master;Server=DESKTOP-G5E7IEI;Trusted_Connection=True;";
 
         [Test]
         public async Task Opening_two_connection_at_the_same_time_escalates_to_dtc()

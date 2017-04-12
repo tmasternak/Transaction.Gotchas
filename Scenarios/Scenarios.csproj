@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EscalationsWithSingleSqlServerInstance.cs" />
+    <Compile Include="IsolationLevelForPooledConnections.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
